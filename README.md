@@ -1,5 +1,5 @@
 # EGT_lotka-volterra
-Codes used to fit the cancer cell growth to a lotka-volterra formalism
+Codes used to fit the cancer cell growth to a lotka-volterra formalism. DOI: [10.3390/biom12010008](https://www.mdpi.com/2218-273X/12/1/8)
 
 # Code files description
 The codes attached here calculate the parameters resulting in the best fit of logistic and modified lotka-voterra model to the corresponding data. In each folder, the data used for fitting is stored in a file "data.mat". "model.m" contains the function that calculates the fitting error to be minimized. The mathematical model used for fittin in each case is included within the model function. The file "gr.m" has the code to iteratively estimate the parameters corresponding to best-fit corresponding to the data and the model. 
